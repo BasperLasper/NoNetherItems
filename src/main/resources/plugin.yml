@@ -1,0 +1,19 @@
+name: NoNetherItems
+version: '${version}'
+main: com.basper.nonetheritems.NoNetherItemsPlugin
+api-version: '1.21'
+author: Basper
+description: Removes nether-related items from player inventories and containers, with chat, console, and file logging.
+
+commands:
+  nonetheritems:
+    description: Reload the NoNetherItems config.
+    usage: /nonetheritems reload
+    permission: nonetheritems.admin
+    aliases:
+      - nni
+
+permissions:
+  nonetheritems.admin:
+    description: Allows reloading the NoNetherItems config.
+    default: op
