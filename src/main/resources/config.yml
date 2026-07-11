@@ -1,0 +1,8 @@
+enabled: true
+notify-players: true
+log-to-file: true
+log-file-name: "removed-items.log"
+
+chat-message: "<red>Removed nether item {item} x{amount} from your {source}. Nether items are not allowed.</red>"
+reload-message: "<green>NoNetherItems config reloaded.</green>"
+no-permission-message: "<red>You do not have permission to use this command.</red>"
